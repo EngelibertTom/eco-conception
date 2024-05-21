@@ -1,0 +1,17 @@
+* {
+    color: white;
+    overflow-x: hidden;
+
+}
+
+.first-img{
+    background-image: url(../assets/images/b5c82a2d-5a2a-4016-8538-61502f0de152_leclosdessensjuin2022salle-7.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.section-part {
+ 
+    overflow-y: hidden;
+}
