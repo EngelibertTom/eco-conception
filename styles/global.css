@@ -58,7 +58,7 @@
 
 section {
     display: flex;
-    width:100%;
+    width: 100%;
 
     &:nth-child(even) {
         flex-direction: row-reverse;
@@ -66,24 +66,24 @@ section {
 }
 
 .section-part {
-    width:50%;
+    width: 50%;
 }
 
-.section-part div {
-    padding:5%;
+.section-part > div {
+    padding: 5%;
 }
 
 h2, #baseline {
     font-family: ChangaOne-Regular, sans-serif;
-    font-weight:400;
-    font-size:3rem;
+    font-weight: 400;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
 p {
     font-family: OpenSans-VariableFont_wdth,wght, sans-serif;
-    font-weight:300;
-    font-size:1.5rem;
+    font-weight: 300;
+    font-size: 1.5rem;
     line-height: 2em;
 }
 
