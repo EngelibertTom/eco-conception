@@ -86,6 +86,7 @@ h2, #baseline {
     font-weight:400;
     font-size:3rem;
     text-transform: uppercase;
+    color:white;
 }
 
 header {
@@ -115,6 +116,38 @@ header {
     font-family: JacquesFrancois-Regular, sans-serif;
     font-weight:400;
     font-size:1.5rem;
+    line-height: 2em;
+    color:white;
+}
+
+header {
+    height:100vh;
+    background-color: #081527;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+}
+
+#title {
+    color:white;
+    font-family: LaBelleAurore-Regular, sans-serif;
+}
+
+.navbar-items ul {
+    display:flex;
+    gap:10px;
+}
+.navbar-items ul li {
+    list-style: none;
+    color:white;
+    font-family: JacquesFrancois-Regular, sans-serif;
+    font-weight:400;
+    font-size:1.5rem;
+>>>>>>> ecce5e5526ff0a472f07f71079100d29212338c3
 
 }
 
