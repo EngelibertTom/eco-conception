@@ -46,6 +46,8 @@
     font-size: 1.5rem;
     line-height: 2em;
     color:white;
+    padding:0;
+    margin:0;
 }
 
 .primary-bg {
@@ -91,7 +93,23 @@ h2, #baseline {
 
 header {
     height:100vh;
-    background-color: #081527;
+}
+
+.header-bg {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .navbar {
@@ -99,23 +117,21 @@ header {
     justify-content: space-between;
     align-items: center;
     padding:1rem;
+    z-index:1;
+    position: relative;
 }
 
-#title {
+#title h1 {
     color:white;
     font-family: LaBelleAurore-Regular, sans-serif;
 }
 
-.navbar-items ul {
-    display:flex;
-    gap:10px;
-}
-.navbar-items ul li {
+.navbar-items ul li a {
     list-style: none;
     color:white;
     font-family: JacquesFrancois-Regular, sans-serif;
     font-weight:400;
-    font-size:1.5rem;
+    font-size:1rem;
     line-height: 2em;
     color:white;
 }
@@ -139,16 +155,14 @@ header {
 
 .navbar-items ul {
     display:flex;
-    gap:10px;
+    gap:1rem;
 }
-.navbar-items ul li {
+.navbar-items ul li  {
     list-style: none;
     color:white;
     font-family: JacquesFrancois-Regular, sans-serif;
     font-weight:400;
-    font-size:1.5rem;
->>>>>>> ecce5e5526ff0a472f07f71079100d29212338c3
-
+    font-size:1rem;
 }
 
 .logo {

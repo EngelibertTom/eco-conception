@@ -1,0 +1,10 @@
+.header-bg {
+    background-image: url("../assets/images/76ebb484-c1af-4e95-a46e-853f00d41124_reportage-portraits-cuisine-salle-46.webp");
+}
+
+.header-bg::after {
+    background: linear-gradient(
+            rgba(8, 21, 39, 0.5),
+            rgba(8, 21, 39, 0.5)
+    );
+}
