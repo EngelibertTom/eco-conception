@@ -82,6 +82,10 @@ section {
 
 .section-part div {
     padding:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h2, #baseline {
