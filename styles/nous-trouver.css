@@ -3,12 +3,12 @@ body {
     color: white;
 }
 
-div:has(#day+#opening-time) {
+div:has(.day+.opening-time) {
     width: 100%;
     display: flex;
     flex-direction: column;
 
-    & > div {
+    & > .day, .opening-time {
         width: 50%;
     }
 }
