@@ -40,6 +40,13 @@
     font-style: italic;
 }
 
+* {
+    font-family: OpenSans-VariableFont_wdth,wght, sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2em;
+}
+
 .primary-bg {
     background-color: #081527;
 }
@@ -78,13 +85,6 @@ h2, #baseline {
     font-weight: 400;
     font-size: 3rem;
     text-transform: uppercase;
-}
-
-p {
-    font-family: OpenSans-VariableFont_wdth,wght, sans-serif;
-    font-weight: 300;
-    font-size: 1.5rem;
-    line-height: 2em;
 }
 
 
