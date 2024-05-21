@@ -40,7 +40,21 @@
     font-style: italic;
 }
 
+#baseline {
+    text-transform: uppercase;
+}
+
 section {
     display: flex;
+    width:100%;
 }
+
+.section-part {
+    width:50%;
+    &:has(h2){
+        padding:5%;
+    }
+}
+
+
 
