@@ -134,6 +134,11 @@ header {
     font-size:1rem;
     line-height: 2em;
     color:white;
+    text-decoration: none;
+}
+
+.navbar-items ul li a:hover {
+    text-decoration: underline;
 }
 
 header {
