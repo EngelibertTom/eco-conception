@@ -40,21 +40,53 @@
     font-style: italic;
 }
 
-#baseline {
-    text-transform: uppercase;
+.primary-bg {
+    background-color: #081527;
+}
+
+.secondary-bg {
+    background-color: #231816;
+}
+
+.tiertiary-bg {
+    background-color: #1a2b0e;
+}
+
+.main-bg {
+    background-color: #1e1e1e;
 }
 
 section {
     display: flex;
     width:100%;
+
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+    }
 }
 
 .section-part {
     width:50%;
-    &:has(h2){
-        padding:5%;
-    }
 }
+
+.section-part div {
+    padding:5%;
+}
+
+h2, #baseline {
+    font-family: ChangaOne-Regular, sans-serif;
+    font-weight:400;
+    font-size:3rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: OpenSans-VariableFont_wdth,wght, sans-serif;
+    font-weight:300;
+    font-size:1.5rem;
+    line-height: 2em;
+}
+
 
 
 
