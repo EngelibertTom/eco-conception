@@ -43,7 +43,7 @@
 * {
     font-family: OpenSans-VariableFont_wdth,wght, sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 2em;
     color:white;
     padding:0;
@@ -129,6 +129,7 @@ header {
 #title h1 {
     color:white;
     font-family: LaBelleAurore-Regular, sans-serif;
+    font-size:1.5rem;
 }
 
 .navbar-items ul li a {
@@ -136,7 +137,7 @@ header {
     color:white;
     font-family: JacquesFrancois-Regular, sans-serif;
     font-weight:400;
-    font-size:1rem;
+    font-size:1.5rem;
     line-height: 2em;
     color:white;
     text-decoration: none;

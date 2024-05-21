@@ -26,3 +26,19 @@
     background-position: center;
     background-size: cover;
 }
+
+
+.esprit-bg-1 {
+    height:50% !important;
+    padding-bottom:0 !important;
+    padding-top:0 !important;
+
+
+}
+.esprit-bg-2 {
+    background-image: url("../assets/images/sieges.webp");
+    height:50% !important;
+    padding:0 !important;
+    background-position: center;
+    background-size: cover;
+}
