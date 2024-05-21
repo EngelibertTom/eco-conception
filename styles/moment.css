@@ -1,13 +1,3 @@
-.image-moment {
-    height: 100px;
-    width: 100px;
-}
-
-#menu-button {
-    text-decoration: none;
-    border: 2px white solid;
-    padding: 12px;
-}
 
 .header-bg {
     background-image: url("../assets/images/e542c8c8-eb84-4769-abb9-c96ab209413c_leclosdessensjuin2022platsecrevissefroide4.webp");
@@ -18,4 +8,20 @@
             rgba(8, 21, 39, 0.5),
             rgba(8, 21, 39, 0.5)
     );
+}
+
+.image-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-moment {
+    height: 100px;
+    width: 100px;
+}
+
+#menu-button {
+    text-decoration: none;
+    border: 2px white solid;
+    padding: 12px;
 }
