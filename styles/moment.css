@@ -1,0 +1,10 @@
+.image-moment {
+    height: 100px;
+    width: 100px;
+}
+
+#menu-button {
+    text-decoration: none;
+    border: 2px white solid;
+    padding: 12px;
+}
